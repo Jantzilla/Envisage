@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="picker_padding">183dp</dimen>
+    <dimen name="spinner_x">1</dimen>
+    <dimen name="spinner_text">14sp</dimen>
+    <dimen name="date_time_x">1</dimen>
+    <dimen name="date_time_y">1</dimen>
+    <dimen name="adaptable_text">20sp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Envisage</string>
+    <string name="envisage">Envisage</string>
+
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="enter_a_context">Enter an event description</string>
+    <string name="statement">Event:</string>
+    <string name="channel_name">Envisage Notifications</string>
+    <string name="channel_description">Envisage Event Reminders</string>
+    <string name="poll_posted">You\'ve created a new event!</string>
+    <string name="please_enter_statement">Please enter a description.</string>
+    <string name="cannot_exceed_150_chars">Cannot exceed 150 characters.</string>
+    <string name="delete_post_confirm">Delete this event?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="field_is_empty">Field is empty.</string>
+    <string name="trends">Trends</string>
+    <string name="no_trends">You don\'t have any trends.</string>
+    <string name="zero">0</string>
+    <string name="you_don_t_have_any_posts">You don\'t have any events.</string>
+    <string name="delete">delete</string>
+    <string name="post_statment">event statement</string>
+    <string name="add_post_button">Add event button.</string>
+    <string name="settings">Settings</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="events">Events</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string-array name="event_type_array">
+        <item>ONCE</item>
+        <item>DAILY</item>
+        <item>WEEKLY</item>
+        <item>BI-WEEKLY</item>
+        <item>MONTHLY</item>
+        <item>YEARLY</item>
+    </string-array>
+</resources>

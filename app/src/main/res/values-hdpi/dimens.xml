@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="picker_padding">100dp</dimen>
+    <dimen name="spinner_text">12sp</dimen>
+    <dimen name="spinner_x">0.85</dimen>
+    <dimen name="date_margin">24dp</dimen>
+    <dimen name="date_time_x">0.67</dimen>
+    <dimen name="date_time_y">0.67</dimen>
+    <dimen name="adaptable_text">14sp</dimen>
+</resources>

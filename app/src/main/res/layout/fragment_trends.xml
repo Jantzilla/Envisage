@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TrendsFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        card_view:cardCornerRadius="16dp"
+        card_view:cardElevation="8dp"
+        card_view:cardPreventCornerOverlap="false">
+<!--        tools:context=".StepPagerFragment">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_recipe_step_background"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:contentDescription="@string/recipe_thumbnail"-->
+<!--            android:scaleType="centerCrop" />-->
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_visuals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <HorizontalScrollView
+        android:id="@+id/sv_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scrollbars="none"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+<!--        <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator-->
+<!--            android:id="@+id/worm_dots_indicator"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:dotsColor="@color/colorPrimary"-->
+<!--            app:dotsStrokeColor="@color/colorPrimaryDark"-->
+<!--            app:dotsCornerRadius="8dp"-->
+<!--            app:dotsSize="10dp"-->
+<!--            app:dotsSpacing="3dp"-->
+<!--            app:dotsStrokeWidth="2dp"/>-->
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_trends"
+        android:layout_weight="18"
+        android:layout_width="wrap_content"
+        android:clipToPadding="false"
+        android:layout_height="0dp"
+        android:paddingLeft="183dp"
+        android:paddingRight="183dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_empty_list_notification"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/no_trends"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="12:00am"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"/>
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/pb_trends"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_gravity="center"/>-->
+
+</LinearLayout>
